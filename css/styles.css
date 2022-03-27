@@ -1,22 +1,6 @@
 
-:root {
-    --main-font:"Roboto", sans-serif;
-    --secend-font:"Raleway", sans-serif;
-    --secend-color: #2196F3;
-    --first-color: #757575;
-    --main-color: #212121
-}
-body {
-    font-family: var(--main-font);
-    color:var(--main-color) #212121;
-}
-
-body
-{
-    background-color: white;
+body{
     font-family: 'Roboto', sans-serif;
-    font-family: 'Raleway', sans-serif;
-
 }
 
 
@@ -24,6 +8,13 @@ body
 {
     text-decoration: none;
     color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700 bold;
+    font-size: 26px;
+    line-height: 30.52px;
+    letter-spacing: 3%;
+
+    
 }
 .logo span
 {
@@ -32,7 +23,12 @@ body
 .first-nav a 
 {
     text-decoration: none;
-    color:black
+    color:black;
+    font-weight: 500;
+    font-size: 14px;
+    line-height:16.41px;
+    letter-spacing: 2%; 
+
 }
 .first-nav a:hover
 {
@@ -41,7 +37,12 @@ body
 .first-mail
 {
     text-decoration: none;
-    color: black;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    line-height:16.41px;
+    letter-spacing: 2%; 
+
 }
 .first-mail:hover
 {
@@ -50,7 +51,11 @@ body
 .first-tel
 {
     text-decoration: none;
-    color: black;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    line-height:16.41px;
+    letter-spacing: 2%; 
 }
 .first-tel:hover
 {
@@ -59,6 +64,65 @@ body
 h1{
     text-align: center;
     color: white;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 6%;
+
+}
+
+button 
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 6%;
+    text-align: center;
+    cursor: pointer;
+}
+.second-block ul li b
+{
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: 3%;
+}
+.second-block ul li p
+{
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
+}
+.second-block h2
+{
+    font-size: 36px;
+    line-height: 42.19px;
+    letter-spacing: 3%;
+    text-align: center;
+}
+.third-block h2
+{
+    font-size: 36px;
+    line-height: 42.19px;
+    letter-spacing: 3%;
+    text-align: center;
+}
+figcaption b
+{   
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 3%;
+    text-align: center;
+}
+figcaption p 
+{
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 3%;
+    text-align: center;
+    
+
 }
 .first-block
 {
@@ -77,14 +141,41 @@ address span
 {
     color: #2196F3;
 }
-.address li
+
+
+.address li 
 {
     list-style-type:none;
     color: white;
-    
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    font-weight: 400;
 }
-.address > li > a
+
+address>a
 {
     text-decoration: none;
     color: white;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+
+}
+
+.address li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+font-weight: 400;
+}
+
+header a[href="index.html"]
+{
+    text-decoration: none;
 }
