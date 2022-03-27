@@ -1,1 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-01
+Zadanie domowe GoIT #1
+Piotr Koczkodaj
