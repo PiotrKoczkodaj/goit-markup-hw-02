@@ -1,6 +1,8 @@
 
 body{
+    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 
@@ -71,7 +73,7 @@ h1{
 
 }
 
-button 
+.ibutton 
 {
     font-weight: 700;
     font-size: 16px;
@@ -79,6 +81,8 @@ button
     letter-spacing: 6%;
     text-align: center;
     cursor: pointer;
+    background-color: #2196F3;
+    color: white;
 }
 .second-block ul li b
 {
@@ -174,8 +178,157 @@ line-height: 24px;
 letter-spacing: 0.03em;
 font-weight: 400;
 }
-
+.portfolio-body
+{
+     font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
 header a[href="index.html"]
 {
     text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: black;
+    
+}
+
+header a[href="index.html"] span
+{
+ color: #2196F3
+
+}
+.pnav-first li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    
+}
+.pnav-first li a:hover
+{
+    color: #2196F3;
+}
+
+
+.pnav-first li 
+{
+    list-style: none;
+}
+.cont-list
+{
+    list-style: none;
+    
+}
+.cont-list li :hover
+{
+    color: #2196F3;
+}
+.ptel
+{
+   
+   text-decoration: none;
+   font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+color: #757575;
+}
+.pmail
+{
+    
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.buttonsp .buttonf 
+{
+    background-color: #F5F4FA;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+}
+.buttonsp .buttonf:hover
+{
+    background-color: #2196F3;
+    color: black;
+    cursor: pointer;
+}
+.portfolioo b
+{
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+
+}
+.portfolioo figcaption b
+{
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+
+}
+.portfolioo figcaption p
+{
+    font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+
+}
+.backgroundf
+{
+    background-color: #2F303A;
+}
+.p-end .logop
+{
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+}
+.p-end .logop span
+{
+    color: #2196F3;
+}
+.p-end p
+{
+    color: white;
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+}
+.p-end a
+{
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+
+}
+.mailport
+{
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-decoration-line: underline;
+color: #757575;
 }
