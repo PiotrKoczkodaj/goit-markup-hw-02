@@ -1,11 +1,82 @@
 
-
-.logo {
-    text-decoration: none;
-    color: black;
-    font-family: 'Raleway', sans-serif;
+:root {
+    --main-font:"Roboto", sans-serif;
+    --secend-font:"Raleway", sans-serif;
+    --secend-color: #2196F3;
+    --first-color: #757575;
+    --main-color: #212121
+}
+body {
+    font-family: var(--main-font);
+    color:var(--main-color) #212121;
 }
 
-.logo span {
+body
+{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
+}
+
     color: #2196F3;
+}
+.first-nav a 
+{
+    text-decoration: none;
+    color:black
+}
+.first-nav a:hover
+{
+    color: #2196F3;
+}
+.first-mail
+{
+    text-decoration: none;
+    color: black;
+}
+.first-mail:hover
+{
+    color: #2196F3;
+}
+.first-tel
+{
+    text-decoration: none;
+    color: black;
+}
+.first-tel:hover
+{
+    color: #2196F3;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.first-block
+{
+background-color: #2F303A;
+}
+.third-block
+{
+    background-color: #F5F4FA;
+}
+footer
+{
+    background-color: #2F303A;
+    
+}
+address span
+{
+    color: #2196F3;
+}
+.address li
+{
+    list-style-type:none;
+    color: white;
+    
+}
+.address > li > a
+{
+    text-decoration: none;
+    color: white;
 }

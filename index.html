@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zadanie domowe #2</title>
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet"> 
+
         
 </head>
 <body>
@@ -13,26 +18,27 @@
     <header>
         <a href="index.html" class="logo"><span>Web</span>Studio</a>
        
-        <nav>
+        <nav class="first-nav">
 <a href="#">Agencja</a>
 <a href="portfolio.html" target="_blank">Portfolio</a>
 <a href="#">Kontakt</a>
 </nav>
 
-<a href="mailto:info@devstudio.com">info@devstudio.com</a>
-<a href="tel:+48111111111">+48 111 111 111</a>
+<a  class="first-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+<a class="first-tel" href="tel:+48111111111">+48 111 111 111</a>
     </header>
      <!--Main Container-->
-<main>
-
+<main class="main">
+<div class="first-block">
 <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+
 <button type="button">Zamów usługę</button> <br>
-
+</div>
 
 
 
     
-    
+ <div class="second-block">  
 <ul>
  <li>   
 <b>LOREM IPSUM</b>
@@ -66,7 +72,10 @@
 <li><img src="images/img2.jpg" alt="dłoń trzymająca telefon na tle monitora" width="370" height="294"></li>
 <li><img src="images/img3.jpg" alt="tablet wyświetlający tablice kolorów" width="370" height="294"></li>
  </ul>
-<h2>Nasz Zespół</h2>
+</div> 
+
+ <div class="third-block">
+ <h2>Nasz Zespół</h2>
 
 <ul>
     <li>
@@ -119,18 +128,20 @@
 </li>
 
 </ul>
-
+</div>
 </main>
 
     <!--Footer-->
     <footer>
 
-        <address>     
-<a href="#">WebStudio</a><br>
-m. Warszawa, Aleje Jerozolimskie 21<br>
-<a href="mailto:info@example.com">info@example.com</a><br>
-<a href="tel:+48111111111">+48 111 111 111</a>
-    </address>
+        <address>
+            <ul class="address"> 
+                <li><a href="index.html"><span>Web</span>Studio</a></li>
+                <li><p>m. Warszawa, Aleje Jerozolimskie 21</p></li>
+                <li><a href="mailto:info@example.com">info@example.com</a></li>
+                <li><a href="tel:+48111111111">+48 111 111 111</a></li>    
+            </ul>
+        </address>
 
     </footer>
 
