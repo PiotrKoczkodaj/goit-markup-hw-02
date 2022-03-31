@@ -1,33 +1,39 @@
 
 body{
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+
     
 }
-
+:root
+{
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --mark-color: red
+}
 
 .logo
 {
-    text-decoration: none;
-    color: black;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700 bold;
+    font-weight: 700;
     font-size: 26px;
-    line-height: 30.52px;
-    letter-spacing: 3%;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    font-family: var(--secondary-font)
+    
 
     
 }
 .logo span
 {
     color: #2196F3;
+    
 }
 .first-nav a 
 {
     text-decoration: none;
-    color:black;
+    color: black;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height:16.41px;
     letter-spacing: 2%; 
 
@@ -70,7 +76,7 @@ h1{
     font-size: 44px;
     line-height: 60px;
     letter-spacing: 6%;
-
+    
 }
 
 .ibutton 
@@ -83,6 +89,7 @@ h1{
     cursor: pointer;
     background-color: #2196F3;
     color: white;
+    
 }
 .second-block ul li b
 {
