@@ -130,14 +130,14 @@ footer {
   letter-spacing: 0.03em;
   text-align: center;
 }
-.gallery-list-item-figcaption b {
+.gallery-list-item-figcaption-bold{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.gallery-list-item-figcaption p {
+.gallery-list-item-figcaption-paragraph {
   font-style: normal;
   font-size: 16px;
   line-height: 1.875;
@@ -213,11 +213,20 @@ footer {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.portfolio-gallery-item p {
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.03em;
-  color: var(--third-color);
+.portfolio-gallery-item-bold
+{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em; 
+}
+.portfolio-gallery-item-paragraph {
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: var(--third-color);
+font-weight: 400;
+font-family: var(--main-font);
 }
 .footer-list-item-mail a {
   text-decoration-line: underline;
