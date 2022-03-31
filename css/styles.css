@@ -11,7 +11,25 @@ font-family: 'Roboto', sans-serif;
     --mark-color: #2196F3;
     --main-color: #212121;
     --third-color: #757575;
+    --background-color:#2F303A;
+    --white-background-color: #FFFFFF
 
+}
+.header-part
+{
+    background-color: var(--white-background-color)
+}
+.first-block
+{
+   background-color: var(--background-color)
+}
+.third-block
+{
+    background-color: #F5F4FA
+}
+footer
+{
+    background-color: var(--background-color)
 }
 /*==================================HEADER====================================*/
 .logo
@@ -118,86 +136,92 @@ font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
     color: var(--third-color);
 }
-.second-block h2
-{
-    font-size: 36px;
-    line-height: 42.19px;
-    letter-spacing: 3%;
-    text-align: center;
-}
-.third-block h2
-{
-    font-size: 36px;
-    line-height: 42.19px;
-    letter-spacing: 3%;
-    text-align: center;
-}
-figcaption b
+.second-header
 {   
-    font-size: 16px;
-    line-height: 18.75px;
-    letter-spacing: 3%;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--main-color);
+}
+.third-header
+{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
     text-align: center;
 }
-figcaption p 
+.gallery-list-item-figcaption b
+{   
+font-weight: 500;
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+letter-spacing: 0.03em;
+}
+ .gallery-list-item-figcaption p 
 {
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 18.75px;
-    letter-spacing: 3%;
+    line-height: 1.875;
     text-align: center;
-    
+    letter-spacing: 0.03em;
+    color: var(--third-color);
+}
+/*===================================END OF MAIN CONTAINER============================================*/
 
-}
-.first-block
+.logo-footer
 {
-background-color: #2F303A;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    font-family: var(--secondary-font) 
 }
-.third-block
+.logo-footer
 {
-    background-color: #F5F4FA;
-}
-footer
-{
-    background-color: #2F303A;
-    
-}
-address span
-{
-    color: #2196F3;
-}
-
-
-.address li 
-{
-    list-style-type:none;
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
+    font-family: var(--secondary-font);
+}
+.logo-footer span
+{
+    color: var(--mark-color)
+}
+
+
+.footer-list .footer-list-item
+{
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.714;
     letter-spacing: 0.03em;
     font-weight: 400;
+    list-style-type: none;
+    color: white;
+    
 }
 
-address>a
+.footer-list-item a
 {
-    text-decoration: none;
-    color: white;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    font-weight: 700;
-
-}
-
-.address li a
-{
-    text-decoration: none;
-    color: white;
     font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-font-weight: 400;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--third-color);
 }
+.footer-list-item a:hover
+{
+    color: var(--mark-color);
+}
+
+/*=======================================PORTFOLIO======================================================*/
+
+
 .portfolio-body
 {
      font-family: 'Raleway', sans-serif;
