@@ -20,7 +20,7 @@ body {
 .third-block {
   background-color: var(--white-color);
 }
-footer {
+.end-of-page {
   background-color: var(--background-color);
 }
 /*==================================HEADER====================================*/
@@ -33,7 +33,7 @@ footer {
   text-decoration: none;
   color: var(--main-color);
 }
-.logo span {
+ .logo-span {
   color: var(--mark-color);
 }
 .first-nav-item {
@@ -156,9 +156,6 @@ footer {
   text-decoration: none;
   color: var(--white-color)
 }
-.logo-footer span {
-  color: var(--mark-color);
-}
 
 .footer-list-item 
 {
@@ -228,7 +225,7 @@ color: var(--third-color);
 font-weight: 400;
 font-family: var(--main-font);
 }
-.footer-list-item-mail a {
+.footer-list-item-mail-link{
   text-decoration-line: underline;
   color: var(--third-color);
   list-style-type: none;
