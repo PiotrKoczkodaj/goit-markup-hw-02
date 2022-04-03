@@ -165,8 +165,24 @@ body {
   list-style-type: none;
   color: var(--white-color)
 }
-
-.footer-list-item a 
+.footer-list-item-tel-link
+{
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--third-color);
+}
+.footer-list-item-tel-link:hover
+{
+color: var(--mark-color);
+}
+.footer-list-item-tel-link:focus
+{
+  color: var(--mark-color);
+}
+.footer-list-item-mail-link
 {
   font-size: 14px;
   line-height: 1.714;
@@ -175,10 +191,10 @@ body {
   text-decoration: none;
   color: var(--third-color);
 }
-.footer-list-item a:hover {
+.footer-list-item-mail-link:hover {
   color: var(--mark-color);
 }
-.footer-list-item a:focus {
+.footer-list-item-mail-link:focus {
   color: var(--mark-color);
 }
 
